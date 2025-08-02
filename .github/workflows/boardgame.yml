@@ -6,7 +6,11 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: My First workflow
+
+
+
+
+name: My boardgame
 
 on: [push]
 
@@ -15,7 +19,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkout code
-        uses: actions/checkout@v3
-      - name: print "hello"
-        run: echo "hello, karthi"
+      - name: git checckout
+        uses: actions.checkout@v3
+
+      - name: print hello
+        run: echo "hello code checkout"
+

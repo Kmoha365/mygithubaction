@@ -20,7 +20,7 @@ jobs:
 
     steps:
       - name: git checckout
-        uses: actions.checkout@v3
+        uses: actions/checkout@v3
 
       - name: print hello
         run: echo "hello code checkout"
